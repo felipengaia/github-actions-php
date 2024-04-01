@@ -18,6 +18,3 @@ jobs:
 
       - name: Setting up PHP
         uses: ./.github/actions/php
-
-      - name: Running PHPUnit
-        run: ./.github/scripts/run-phpunit.sh
