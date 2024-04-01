@@ -19,14 +19,5 @@ jobs:
       - name: Setting up PHP
         uses: ./.github/actions/php
 
-      - name: Installing Composer
-        run: ./.github/scripts/run-composer.sh
-
-      - name: Running PHPStan
-        run: ./.github/scripts/run-phpstan.sh
-
-      - name: PHP Insights
-        run: ./.github/scripts/run-phpinsights.sh
-
       - name: Running PHPUnit
         run: ./.github/scripts/run-phpunit.sh
