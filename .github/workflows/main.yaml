@@ -3,7 +3,7 @@ name: App Workflow
 on:
   push:
     branches:
-      - master
+      - PHPUnit
   pull_request:
     branches:
       - master
