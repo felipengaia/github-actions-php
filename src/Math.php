@@ -10,4 +10,10 @@ final class Math
     {
         return $a + $b;
     }
+	
+	public function mult(int $a, int $b) : int
+    {
+        return $a * $b;
+    }
+
 }
