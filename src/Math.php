@@ -13,8 +13,7 @@ final class Math
 	
 	public function mult(int $a, int $b) : int
     {
-		return 0;
-        //return $a * $b;
+        return $a * $b;
     }
 
 }
