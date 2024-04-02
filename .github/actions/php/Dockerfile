@@ -1,3 +1,3 @@
-FROM php7.2-cli-alpine
+FROM php:7.2
 
 COPY --from=composer:latest /usr/bin/composer /usr/bin/composer
