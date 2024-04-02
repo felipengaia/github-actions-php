@@ -8,6 +8,6 @@ final class Math
 {
     public function plus(int $a, int $b) : int
     {
-        return $a * $b;
+        return $a + $b;
     }
 }
