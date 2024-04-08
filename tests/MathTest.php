@@ -14,7 +14,7 @@ class MathTest extends TestCase
         $math = new Math();
 
 		$this->assertSame(8, $math->plus(4, 4));
-        $this->assertSame(5, $math->plus(4, 2));
+        $this->assertSame(6, $math->plus(4, 2));
 		$this->assertSame(16, $math->mult(4, 4));
 		$this->assertSame(12, $math->mult(3, 4));
 		$this->assertSame(81, $math->mult(9, 9));
